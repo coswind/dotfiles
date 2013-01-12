@@ -9,6 +9,8 @@ Xft.rgba:      rgb
 !{{{ URXVT
 ! General
 urxvt*scrollBar:   false
+URxvt*inputMethod: ibus
+URxvt*preeditType: OnTheSpot,None
 
 ! Font
 URxvt*font:                 xft:Terminus:regular:size=12
