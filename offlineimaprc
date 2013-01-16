@@ -16,7 +16,7 @@ localfolders = ~/.mail/gmail
 [Repository Gmail-Remote]
 type = Gmail
 remoteuser = xy2491259@gmail.com
-remotepass = xy2491259
+remotepass = xxxxxxx
 sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 nametrans = lambda folder: re.sub('INBOX', 'inbox',
     re.sub(r'^&(.*)$', r'[Gmail].&\1',
