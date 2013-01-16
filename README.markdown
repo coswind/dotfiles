@@ -12,7 +12,7 @@
     cp -f ~/.dotfiles/offlineimaprc ~/.offlineimaprc
     cp -f ~/.dotfiles/msmtprc ~/.msmtprc
 
-##Note 
+##Other Tips 
 
     Modify the password part of .msmtprc & .offlineimaprc
     mkdir ~/.mail/gmail
