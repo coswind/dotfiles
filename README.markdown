@@ -6,4 +6,6 @@
 
     ln -sf ~/.dotfiles/Xresources ~/.Xresources
     ln -sf ~/.dotfiles/compton.conf ~/.compton.conf
+    ln -sf ~/.dotfiles/muttrc ~/.muttrc
+    ln -sf ~/.dotfiles/offlineimaprc ~/.offlineimaprc
 
