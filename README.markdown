@@ -12,7 +12,14 @@
     cp -f ~/.dotfiles/offlineimaprc ~/.offlineimaprc
     cp -f ~/.dotfiles/msmtprc ~/.msmtprc
 
-##Other Tips 
+##Other Tips:
 
     Modify the password part of .msmtprc & .offlineimaprc
     mkdir ~/.mail/gmail
+
+##Screenshots:
+
+![Urxvt](/img/urxvt.png)
+![Mutt](/img/mutt.png)
+![Offlineimap](/img/offlineimap.png)
+![Ncmpcpp](/img/ncmpcpp.png)
