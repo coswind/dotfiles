@@ -10,3 +10,6 @@
     cp -f ~/.dotfiles/offlineimaprc ~/.offlineimaprc
     cp -f ~/.dotfiles/msmtprc ~/.msmtprc
 
+##Note 
+
+    Modified the password part of .msmtprc & .offlineimaprc
