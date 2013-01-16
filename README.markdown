@@ -19,7 +19,7 @@
 
 ##Screenshots:
 
-![Urxvt](/img/urxvt.png)
-![Mutt](/img/mutt.png)
-![Offlineimap](/img/offlineimap.png)
-![Ncmpcpp](/img/ncmpcpp.png)
+![Urxvt](https://raw.github.com/coswind/dotfiles/master/img/urxvt.png)
+![Mutt](https://raw.github.com/coswind/dotfiles/master/img/mutt.png)
+![Offlineimap](https://raw.github.com/coswind/dotfiles/master/img/offlineimap.png)
+![Ncmpcpp](https://raw.github.com/coswind/dotfiles/master/img/ncmpcpp.png)
