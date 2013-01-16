@@ -7,9 +7,12 @@
     ln -sf ~/.dotfiles/Xresources ~/.Xresources
     ln -sf ~/.dotfiles/compton.conf ~/.compton.conf
     ln -sf ~/.dotfiles/muttrc ~/.muttrc
+    ln -sf ~/.dotfiles/xinitrc ~/.xinitrc
+    ln -sf ~/.dotfiles/urlview ~/.urlview
     cp -f ~/.dotfiles/offlineimaprc ~/.offlineimaprc
     cp -f ~/.dotfiles/msmtprc ~/.msmtprc
 
 ##Note 
 
-    Modified the password part of .msmtprc & .offlineimaprc
+    Modify the password part of .msmtprc & .offlineimaprc
+    mkdir ~/.mail/gmail
