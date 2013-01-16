@@ -20,7 +20,7 @@ URxvt*font:                 xft:Terminus:regular:size=12
 !URxvt*boldItalicFont:       xft:Monaco for Powerline:bold:italic:size=10
 
 ! backgound-pixmap
-urxvt*backgroundPixmap: .dotfiles/black_dot.png;style=tiled
+urxvt*backgroundPixmap: .dotfiles/img/black_dot.png;style=tiled
 
 ! Zenburn color-scheme
 urxvt*background:  #3f3f3f
