@@ -1,0 +1,25 @@
+# Sample minimal config file.  Copy this to ~/.offlineimaprc and edit to
+# get started fast.
+
+[general]
+accounts = Gmail
+ui = quiet
+
+[Account Gmail]
+localrepository = Gmail-Local
+remoterepository = Gmail-Remote
+
+[Repository Gmail-Local]
+type = Maildir
+localfolders = ~/.mail/gmail
+
+[Repository Gmail-Remote]
+type = Gmail
+remoteuser = xy2491259@gmail.com
+remotepass = xxxxxxx
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+nametrans = lambda folder: re.sub('INBOX', 'inbox',
+    re.sub(r'^&(.*)$', r'[Gmail].&\1',
+    re.sub(r'.*/(.*)$', r'\1', folder).lower()))
+folderfilter = lambda foldername: foldername in ['INBOX', 'Sent', 'Trash']
+
