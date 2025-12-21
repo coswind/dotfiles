@@ -4,8 +4,8 @@
 # 代码开发原则
 
 ## 设计原则
-- 严格遵守 **KISS/YAGNI** 原则：解决实际问题，而非想象的未来需求
-- 倾向简单、模块化的解决方案；保持缩进 ≤3 层，函数单一职责
+- KISS (Keep It Simple, Stupid): Simplicity should be a key goal in design. Choose straightforward solutions over complex ones whenever possible. Simple solutions are easier to understand, maintain, and debug.
+- YAGNI (You Aren't Gonna Need It): Avoid building functionality on speculation. Implement features only when they are needed, not when you anticipate they might be useful in the future.
 
 ## 错误处理
 - 避免所有不必要的异常处理；优先让错误自然抛出（fail fast）
