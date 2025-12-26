@@ -29,4 +29,8 @@ ln -sf ~/dotfiles/claude/commands ~/.claude/commands
 backup_if_exists ~/.config/kitty
 ln -sf ~/dotfiles/kitty ~/.config/kitty
 
+# Wezterm 配置
+backup_if_exists ~/.config/wezterm
+ln -sf ~/dotfiles/wezterm ~/.config/wezterm
+
 echo "配置已链接完成"

@@ -23,6 +23,7 @@
   - `push.md` - 自动提交推送命令
 - `kitty/kitty.conf` - Kitty 终端主配置文件
 - `kitty/current-theme.conf` - Kitty 终端主题配置
+- `wezterm/wezterm.lua` - Wezterm 终端配置文件
 
 ## 备份机制
 
